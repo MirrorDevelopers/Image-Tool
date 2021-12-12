@@ -41,20 +41,20 @@ async def is_app_admin(chat, user):
 
 TEXT=f"""🗑️** Background removed Successfully**✅
 ◇───────────────◇
-🔥 **Removed  by** : [ 🎨 Imᥲgᥱ Tooᥣs Bot](https://t.me/szimagebot)
-⚡️ **Powered By**  : `【SZ™】`
+🔥 **Removed  by** : [ 🎨 Imᥲgᥱ Tooᥣs Bot](https://t.me/logogenbot)
+⚡️ **Powered By**  : `InfinityGO `
 ◇───────────────◇
-©2021[【SZ™】 team ](https://t.me/szteambots) **All Right Reserved**⚠️️
+©2021[ InfinityGO team ](https://t.me/TeamInfinityGo) **All Right Reserved**⚠️️
 """    
     
     
 BUTTONS = InlineKeyboardMarkup(	
       [	
         [	
-        InlineKeyboardButton(text="➕ Add me to your group ➕", url=f"http://t.me/szimagebot?startgroup=botstart") 	
+        InlineKeyboardButton(text="➕ Add me to your group ➕", url=f"http://t.me/Logogenbot?startgroup=botstart") 	
         ],	
         [	
-         InlineKeyboardButton(text="🗣️Join my updates ", url=f"https://t.me/sszteambots") 	
+         InlineKeyboardButton(text="🗣️Join my updates ", url=f"https://t.me/TeamInfinityGo") 	
         ]	
       ]      	
     )    
@@ -113,7 +113,7 @@ async def _(event):
         await gg.delete()
     else:
         await gg.edit(
-            "remove.bg API returned Errors. Please report to @slbotzone\n`{}` ".format(
+            "remove.bg API returned Errors. Please report to @DarkFinityBots \n`{}` ".format(
                 output_file_name.content.decode("UTF-8")
             )
         )

@@ -16,10 +16,10 @@ import shutil
 repmark = InlineKeyboardMarkup(
       [
         [
-        InlineKeyboardButton(text="➕ Add me to your group ➕", url=f"http://t.me/szimagebot?startgroup=botstart") 
+        InlineKeyboardButton(text="➕ Add me to your group ➕", url=f"http://t.me/LogoGenBot?startgroup=botstart") 
         ],
         [
-         InlineKeyboardButton(text="🗣️Join my updates ", url=f"https://t.me/szteambots") 
+         InlineKeyboardButton(text="🗣️Join my updates ", url=f"https://t.me/TeamInfinityGo") 
         ]
       ]      
     )
@@ -38,11 +38,11 @@ async def make_logo(_, message):
     imgcaption = f"""
 ☘️** Logo Created Successfully**✅
 ◇───────────────◇
-🔥 **Created by** : @szimagebot
+🔥 **Created by** : @LogoGenBot 
 🌷 **Requestor** : {message.from_user.mention}
-⚡️ **Powered By **  : `【SZ™】`
+⚡️ **Powered By **  : `InfinityGO `
 ◇───────────────◇
-©2021[【SZ™】 team ](https://t.me/szteambots) **All Right Reserved**⚠️️
+©2021[InfinityGO team ](https://t.me/TeamInfinityGo) **All Right Reserved**⚠️️
 """
     if len(message.command) < 2:
             return await message.reply_text("Please give a text to make logo")
@@ -94,11 +94,11 @@ async def logomake(_, message: Message):
     imgcaption = f"""
 ☘️** Logo Created Successfully**✅
 ◇───────────────◇
-🔥 **Created by** : @szimagebot
+🔥 **Created by** : @LogoGenBot
 🌷 **Requestor** : {message.from_user.mention}
 ⚡️ **Powered By **  : `【SZ™】`
 ◇───────────────◇
-©2021[【SZ™】 team ](https://t.me/szteambots) **All Right Reserved**⚠️️
+©2021[InfinityGO team ](https://t.me/TeamInfinityGo) **All Right Reserved**⚠️️
 """
     img.save(szlogo, "png")
     await message.reply_photo(
@@ -138,11 +138,11 @@ async def logomake(_, message: Message):
     imgcaption=f"""
 ☘️** Logo Created Successfully**✅
 ◇───────────────◇
-🔥 **Created by** : @szimagebot
+🔥 **Created by** : @LogoGenBot
 🌷 **Requestor** : {message.from_user.mention}
 ⚡️ **Powered By **  : `【SZ™】`
 ◇───────────────◇
-©2021[【SZ™】 team ](https://t.me/szteambots) **All Right Reserved**⚠️️
+©2021[InfinityGO team ](https://t.me/TeamInfinityGo) **All Right Reserved**⚠️️
 """
     img.save(szlogo, "png")
     await message.reply_photo(
@@ -179,11 +179,11 @@ async def logomake(_, message: Message):
     imgcaption=f"""
 ☘️** Logo Created Successfully**✅
 ◇───────────────◇
-🔥 **Created by** : @szimagebot
+🔥 **Created by** : @LogoGenBot
 🌷 **Requestor** : {message.from_user.mention}
 ⚡️ **Powered By **  : `【SZ™】`
 ◇───────────────◇
-©2021[【SZ™】 team ](https://t.me/szteambots) **All Right Reserved**⚠️️
+©2021[InfinityGO team ](https://t.me/TeamInfinityGo) **All Right Reserved**⚠️️
 """
     img.save(szlogo, "png")
     await message.reply_photo(

@@ -24,17 +24,7 @@ from szbot.helpers.humanbytes import humanbytes
 
 
 START_IMG = (
-    "http://telegra.ph//file/6446461de37e64e66fa23.png",
-    "http://telegra.ph//file/6f8b5760d0d3b6b2d13d6.png",
-    "http://telegra.ph//file/9aaa3d6182bfa60c75719.png",
-    "http://telegra.ph//file/eb9d3ceaddb80c8f54e0c.png",
-    "http://telegra.ph//file/d6961d5ee000d19673aea.png",
-    "http://telegra.ph//file/b84bdb7d085786752051d.png",
-    "http://telegra.ph//file/330184a851ecf88b899a9.png",
-    "http://telegra.ph//file/01c927f6ba69b0ee0e200.png",
-    "http://telegra.ph//file/9b4ce9e507c491af3cecf.png",
-    "http://telegra.ph//file/b6a00b71aee0610f13ac4.png",
-)
+    "https://telegra.ph/file/ade065a11533fb54e5314.jpg",
 
 @sz.on_message(filters.private & filters.incoming & filters.command(["start"]))
 async def start(bot, update):
@@ -50,13 +40,13 @@ async def start(bot, update):
 <b>I specialize for logo design  Services with Amazing logo  Creator Platform & more tools</b>💐
                                 
 🌶 <b>Powered by</b>:
-◈ <code>Single Developers Logo Creator API</code>
-◈ <code>TroJanzHex Image editor</code>
-◈ <code>Dᴀᴍᴀɴᴛʜᴀ Jᴀsɪɴɢʜᴇ Random Logo Api</code>
+◈ <code>SD Logo Creator API</code>
+◈ <code>InfinityGO Image editor</code>
+◈ <code>TheBusyDev Random Logo Api</code>
 
 📊 <b>Users</b> : {total_users}
 
-©2021<a href=\"https://t.me/szteambots\"> sz Team Bots <sz/>✌️</a> 💐
+©2021<a href=\"https://t.me/TeamInfinityGo\">InfinityGO</a> 💐
 """
     await update.reply_photo(
                     photo=(random.choice(START_IMG)),
@@ -65,7 +55,7 @@ async def start(bot, update):
                     parse_mode="Html")
 
     
-@sz.on_message(filters.command(["start", f"start@szimagebot"]) & ~filters.private & ~filters.channel)
+@sz.on_message(filters.command(["start", f"start@lohogenbot"]) & ~filters.private & ~filters.channel)
 async def gstart(bot, update):
     await AddUserToDatabase(bot, update)
     FSub = await ForceSub(bot, update)
@@ -89,7 +79,7 @@ async def help(bot, update):
         disable_web_page_preview=True,
         reply_markup=CLOSE_BTN) 
 
-@sz.on_message(filters.command(["about", f"about@szimagebot"]))
+@sz.on_message(filters.command(["about", f"about@LogogenBot"]))
 async def about(bot, update):
     await AddUserToDatabase(bot, update)
     FSub = await ForceSub(bot, update)
@@ -137,13 +127,7 @@ async def ping(bot, update):
 sz.start()
 tele.start(bot_token=BOT_TOKEN)
 LOGGER.info("""
-   _____ ______  ____        _       
-  / ____|___  / |  _ \      | |      
- | (___    / /  | |_) | ___ | |_ ___ 
-  \___ \  / /   |  _ < / _ \| __/ __|
-  ____) |/ /__  | |_) | (_) | |_\__ |
- |_____//_____| |____/ \___/ \__|___/
                                      
-© This bot was created by SZ Bots and If you've clone this, you must keep this notice.                                     
+© This bot was created by InfinityGO and If you've clone this, you must keep this notice.                                     
 """)
 idle()

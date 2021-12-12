@@ -15,11 +15,12 @@ START_BTN = InlineKeyboardMarkup(
                     InlineKeyboardButton("🆘️ Help 🆘️", callback_data="helpmenu")
                 ],
                 [
-                    InlineKeyboardButton("🗣Updates", url="https://t.me/szteambots"),
-                    InlineKeyboardButton("👥Support", url="https://t.me/slbotzone")
+                    InlineKeyboardButton("🗣Updates", url="https://t.me/TeamInfinityGo"),
+                    InlineKeyboardButton("👥Support", url="https://t.me/DarkFinityBots")
                 ],
                 [
-                    InlineKeyboardButton("➕Add me to your group ➕", url="http://t.me/szimagebot?startgroup=botstart") 
+                    InlineKeyboardButton("➕Add me to your group ➕", url="http://t.me/LogoGenBot
+                                         ?startgroup=botstart") 
                 ]
             ]
         )
@@ -30,13 +31,13 @@ GROUP_BTN = InlineKeyboardMarkup(
                     InlineKeyboardButton("🆘️ Help 🆘️", callback_data="helpmenu")
                 ],
                 [
-                    InlineKeyboardButton("🗣️Update channel", url="https://t.me/szteambots")
+                    InlineKeyboardButton("🗣️Update channel", url="https://t.me/TeamInfinityGo")
                 ]
             ]
         )
 
 HELP_TEXT = f"""
-**🆘️This is @szimagebot Help Menu 🆘️**
+**🆘️This is @LogoGenBot Help Menu 🆘️**
 
 ⚠️️Read this before useing me ...
 
@@ -48,7 +49,7 @@ HELP_TEXT = f"""
 ♞/text reply to text
 ♞/rlogo logo name
 
-©2021[<sz/> Team ](https://t.me/szteambots)✌️
+©2021[InfinityGO Team ](https://t.me/TeamInfinityGo)✌️
 """
 
 BACKTOHOME = InlineKeyboardMarkup(
@@ -66,9 +67,9 @@ World First Time With Image Editor tools**🌟
 🔥You Can Create Many Type Of **Logo Design**
 For your Dp & More Usage , Remove Background  
 With full **Advance image Editor Features** Included 
-This Bot Based on @MalithRukshan **Logo Api Key**
-& **TroJanzHex Image editor** 
-Speacial credits gone **Dᴀᴍᴀɴᴛʜᴀ Jᴀsɪɴɢʜᴇ & <sz/> Team ** ...🤗
+This Bot Based on SDC **Logo Api Key**
+& **TJHX Image editor** 
+Speacial credits gone **TheBusyDev & InfinityGO Team ** ...🤗
 
 💁‍♂**Logo Types & Image editor Features** : 
 
@@ -114,7 +115,7 @@ Then You Can Use Our Bot For limited  To Create logo 💫😊**
 CLOSE_BTN =  InlineKeyboardMarkup(
         [
         [
-        InlineKeyboardButton(text="🗣️<sz/>team bot's", url=f"https://t.me/szteambots")    
+        InlineKeyboardButton(text="🗣InfinityGO , url=f"https://t.me/TeamInfinityGo")    
         ]
         ]      
     )
@@ -124,7 +125,7 @@ FSUB_TEXT = " **You cant use me untill subscribe our updates channel** ☹️\n\
 FSUB_BTN = InlineKeyboardMarkup(
         [
         [
-        InlineKeyboardButton(text="🗣 Join our update Channel ", url=f"https://t.me/szteambots") 
+        InlineKeyboardButton(text="🗣 Join our update Channel ", url=f"https://t.me/TeamInfinityGo") 
         ]
         ]      
     )

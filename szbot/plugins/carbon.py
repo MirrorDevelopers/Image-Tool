@@ -14,10 +14,10 @@ async def make_carbon(code):
 BUTTON = InlineKeyboardMarkup(
       [
         [
-        InlineKeyboardButton(text="➕ Add me to your group ➕", url=f"http://t.me/szimagebot?startgroup=botstart") 
+        InlineKeyboardButton(text="➕ Add me to your group ➕", url=f"http://t.me/logogenbot?startgroup=botstart") 
         ],
         [
-         InlineKeyboardButton(text="🗣️Join my updates", url=f"https://t.me/szteambots") 
+         InlineKeyboardButton(text="🗣️Join my updates", url=f"https://t.me/TeamInfinityGo") 
         ]
       ]      
     )
@@ -25,10 +25,10 @@ BUTTON = InlineKeyboardMarkup(
 TEXT=f"""
 ☘️ **carbon Created Successfully** ✅
 ◇───────────────◇
-🔥 **Created by** : [🎨 Imᥲgᥱ Tooᥣs Bot](https://t.me/szimagebot)
-⚡️ **Powered By**  : `【SZ™】´
+🔥 **Created by** : [🎨 Imᥲgᥱ Tooᥣs Bot](https://t.me/logogenbot)
+⚡️ **Powered By**  : `InfinityGO `
 ◇───────────────◇
-©2021【SZ™】 team  **All Right Reserved**⚠️️
+©2021 InfinityGO team  **All Right Reserved**⚠️️
 """
 
 

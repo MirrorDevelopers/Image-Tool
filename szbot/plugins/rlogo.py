@@ -91,10 +91,10 @@ async def logogen(client, message):
     imgcaption = f"""
 ☘️**Random Logo Created Successfully**✅
 ◇───────────────◇
-🔥 **Created by** : @szimagebot
-⚡️ **Powered By **  : `【SZ™】`
+🔥 **Created by** : @LogoGenBot
+⚡️ **Powered By **  : InfinityGO 
 ◇───────────────◇
-©2021[【SZ™】 team ](https://t.me/szteambots) **All Right Reserved**⚠️️
+©2021[InfinityGO ](https://t.me/TeamInfinityGo) **All Right Reserved**⚠️️
 """
     created = "logo.jpg"
     await client.send_photo(message.chat.id, photo = created, caption = imgcaption, reply_markup = repmark )
